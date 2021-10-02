@@ -176,7 +176,7 @@ header .navbar a:hover{
 }
 
 .speciality .box-container{
-  display: flex;
+  display:inline-flex;
   flex-wrap: wrap;
   gap:1.5rem;
 }
@@ -201,12 +201,15 @@ header .navbar a:hover{
 
 .speciality .box-container .box .content{
   text-align: center;
+  height: 100%;
   background:#fff;
   padding:2rem;
+  
 }
 
 .speciality .box-container .box .content img{
   margin:1.5rem 0;
+
 }
 
 .speciality .box-container .box .content h3{
@@ -222,10 +225,12 @@ header .navbar a:hover{
 
 .speciality .box-container .box:hover .image{
   top:0;
+
 }
 
 .speciality .box-container .box:hover .content{
   transform: translateY(100%);
+
 }
 
 .popular .box-container{

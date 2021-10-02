@@ -53,7 +53,9 @@ $message = "
 	<tr><td>Name: </td><td>" . $_POST["full_name"] . "</td></tr>
 	<tr><td>Mobile No.: </td><td>" . $_POST["mobile_number"] . "</td></tr>
 	<tr><td>Email: </td><td>" . $_POST["email"] . "</td></tr>
-	<tr><td>Message: </td><td>" . $_POST["message"] . "</td></tr>
+	<tr><td>Food Items: </td><td>" . $_POST["message"] . "</td></tr>
+    <tr><td>Delivery Address: </td><td>" . $_POST["address"] . "</td></tr>
+
 </table>
 ";
 

@@ -46,7 +46,13 @@
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label form-control-label">Food Items</label>
 										<div class="col-lg-9">
-											<textarea class="form-control"  placeholder="Write your message" name="message" required></textarea>
+											<textarea class="form-control"  placeholder="Add Food Items" name="message" required></textarea>
+										</div>
+									</div>
+									<div class="form-group row">
+										<label class="col-lg-3 col-form-label form-control-label">Delivery Address </label>
+										<div class="col-lg-9">
+											<textarea class="form-control"  placeholder="Write delivery address" name="address" required></textarea>
 										</div>
 									</div>
 									<div class="form-group row">
